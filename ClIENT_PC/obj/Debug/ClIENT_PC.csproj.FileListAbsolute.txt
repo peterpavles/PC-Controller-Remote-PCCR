@@ -1,0 +1,28 @@
+c:\users\moussa\documents\visual studio 2013\Projects\ClIENT_PC\ClIENT_PC\bin\Debug\ClIENT_PC.exe.config
+c:\users\moussa\documents\visual studio 2013\Projects\ClIENT_PC\ClIENT_PC\obj\Debug\ClIENT_PC.csprojResolveAssemblyReference.cache
+c:\users\moussa\documents\visual studio 2013\Projects\ClIENT_PC\ClIENT_PC\bin\Debug\ClIENT_PC.exe
+c:\users\moussa\documents\visual studio 2013\Projects\ClIENT_PC\ClIENT_PC\bin\Debug\ClIENT_PC.pdb
+c:\users\moussa\documents\visual studio 2013\Projects\ClIENT_PC\ClIENT_PC\obj\Debug\ClIENT_PC.exe
+c:\users\moussa\documents\visual studio 2013\Projects\ClIENT_PC\ClIENT_PC\obj\Debug\ClIENT_PC.pdb
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\obj\Debug\ClIENT_PC.pdb
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\ClIENT_PC.pdb
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\EntityFramework.dll
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\EntityFramework.SqlServer.dll
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\System.Data.SQLite.dll
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\System.Data.SQLite.EF6.dll
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\System.Data.SQLite.Linq.dll
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\EntityFramework.xml
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\EntityFramework.SqlServer.xml
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\System.Data.SQLite.xml
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\ClIENT_PC.exe.config
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\ClIENT_PC.exe
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\obj\Debug\ClIENT_PC.exe
+C:\wamp\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\obj\Debug\ClIENT_PC.csprojResolveAssemblyReference.cache
+C:\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\ClIENT_PC.exe.config
+C:\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\ClIENT_PC.exe
+C:\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\ClIENT_PC.pdb
+C:\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\System.Data.SQLite.dll
+C:\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\bin\Debug\System.Data.SQLite.xml
+C:\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\obj\Debug\ClIENT_PC.exe
+C:\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\obj\Debug\ClIENT_PC.pdb
+C:\www\pc_controlleur_V1\ClIENT_PC\ClIENT_PC\obj\Debug\ClIENT_PC.csprojResolveAssemblyReference.cache
