@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{32F78744-6CA1-4302-B0C7-5BE866CAD177}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Serveur_Client_PCC</RootNamespace>
+    <AssemblyName>Serveur_Client_PCC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Serveur_Client_PCC.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>qd1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Communication\Encrypter.cs" />
+    <Compile Include="Controller\ClipboardController.cs" />
+    <Compile Include="Controller\CmdController.cs" />
+    <Compile Include="Controller\EcranController.cs" />
+    <Compile Include="Controller\FichiersController.cs" />
+    <Compile Include="Controller\FunController.cs" />
+    <Compile Include="Controller\HistoriquesController.cs" />
+    <Compile Include="Controller\InfosPcController.cs" />
+    <Compile Include="Controller\MsgboxController.cs" />
+    <Compile Include="Controller\ProcessusController.cs" />
+    <Compile Include="Controller\ProgrammesController.cs" />
+    <Compile Include="Controller\RegistresController.cs" />
+    <Compile Include="Controller\ScriptController.cs" />
+    <Compile Include="Controller\ServicesController.cs" />
+    <Compile Include="Controller\VoleursController.cs" />
+    <Compile Include="Controller\WebcamController.cs" />
+    <Compile Include="Dispatcher.cs" />
+    <Compile Include="Communication\Auth.cs" />
+    <Compile Include="Communication\Hook.cs" />
+    <Compile Include="Communication\HttpRequester.cs" />
+    <Compile Include="Communication\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Communication\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Communication\Router.cs" />
+    <Compile Include="Configuration\EncoderStr.cs" />
+    <Compile Include="Form_Outille\Editeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Outille\Editeur.Designer.cs">
+      <DependentUpon>Editeur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Outille\Prompt.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelControl.Designer.cs">
+      <DependentUpon>PanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\Parametre.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ControllerBase.cs" />
+    <Compile Include="Request.cs" />
+    <EmbeddedResource Include="Communication\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Outille\Editeur.resx">
+      <DependentUpon>Editeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelControl.resx">
+      <DependentUpon>PanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Form_Outille\Resources\qd_illumination.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Form_Outille\Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Form_Outille\Resources\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Form_Outille\Resources\online.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Form_Outille\Resources\offline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="qd1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
